@@ -62,8 +62,6 @@ public class DataProviderClass {
          String csvFile = "C:\\\\Users\\\\Vipulsrivastava\\\\Desktop\\\\csv_demo.csv";
          BufferedReader br = null;
          String line[] = new String[10];
-         String cvsSplitBy = "\t";
-
          try {
 
              br = new BufferedReader(new FileReader(csvFile));
